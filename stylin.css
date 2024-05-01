@@ -2,10 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Libre+Barcode+128+Text&display=swap');
 
-.fire{
+.fire {
     color: #f5833b;
     font-family: "Jersey 10 Charted", sans-serif;
+    font-size: 10vh;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 1px 1px 2px grey, 0 0 1rem orange;
   }
   
