@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Libre+Barcode+128+Text&display=swap');
 
+.small {
+  font-size: x-small;
+}
+
 .fire {
     color: #f5833b;
     font-family: "Jersey 10 Charted", sans-serif;
@@ -11,3 +15,8 @@
     text-shadow: 1px 1px 2px grey, 0 0 1rem orange;
   }
   
+.madness {
+  color: red;
+  font-family: "libre barcode 128 Text", system-ui;
+  font-size: 77px;
+}
