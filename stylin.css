@@ -1,6 +1,33 @@
+/* font-family: "Jersey 10 Charted", sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
 
+/* font-family: "Libre Barcode 128 Text", system-ui; */
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Libre+Barcode+128+Text&display=swap');
+
+/* font-family: "Teko", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Libre+Barcode+128+Text&family=Teko:wght@300..700&display=swap');
+
+/* font-family: Reggae One, system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Libre+Barcode+128+Text&family=Reggae+One&family=Teko:wght@300..700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+}
+
+p {
+  font-family: "Reggae One", system-ui;
+}
+
+:root {
+  --hamlindigo-blue: #A8BEF0;
+  --ng-orange: #f5833b;
+  --must-yellow: #ffcc02;
+  --funny: rgb(76, 76, 76);
+}
 
 .small {
   font-size: x-small;
@@ -20,3 +47,48 @@
   font-family: "libre barcode 128 Text", system-ui;
   font-size: 77px;
 }
+
+.header {
+  background-color: #f5833b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 5rem;
+  border-radius: 2rem;
+}
+
+.header a{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2rem;
+  width: 7rem;
+}
+
+#mcolor {
+  background-color: #ccc;
+}
+
+.music {
+  background-image: url("images/music-melody-musical-note-music-779f13-1024.jpg");
+  background-color: whitesmoke;
+  height: 333px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  font-size: xx-large;
+  font-family: "teko", system-ui;
+}
+
+.music p{
+  color: orange;
+}
+
+/* .melodies {
+width: 25rem;
+height: 25rem;
+} */
+
+
