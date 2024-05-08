@@ -22,6 +22,17 @@ p {
   font-family: "Reggae One", system-ui;
 }
 
+h1 {
+  font-size: 10rem;
+}
+
+.sideR {
+  padding: 0.5%;
+  height: 30.5rem;
+  width: 33%
+
+}
+
 :root {
   --hamlindigo-blue: #A8BEF0;
   --ng-orange: #f5833b;
@@ -86,9 +97,5 @@ p {
   color: orange;
 }
 
-/* .melodies {
-width: 25rem;
-height: 25rem;
-} */
 
 
