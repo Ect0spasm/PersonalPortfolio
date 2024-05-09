@@ -77,6 +77,10 @@ h1 {
   width: 7rem;
 }
 
+.mainBG {
+background-color: #ccc;
+}
+
 #mcolor {
   background-color: #ccc;
 }
@@ -97,5 +101,7 @@ h1 {
   color: orange;
 }
 
-
+.holdEm {
+  padding: 10em;
+}
 
