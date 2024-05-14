@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <a href="aboutMe.html">ABOUT ME</a>
-        <a href="contact.html">CONTACT</a>
         <a href="Inspirations.html">INSPIRATIONS</a>
         <a href="portfolio.html">PORTFOLIO</a>
         <a href="resume.html">RESUME</a>
+        <a href="contact.html">CONTACT</a>
         <a href="home.html">GO BACK HOME</a>
     </header>
 
@@ -26,11 +26,20 @@
         <h1 class="fire">Oh yeah.</h1>
         <p>Congratulations, you have found the CONTENT! Please ask contact the creator of the website for a
             simplistically detailed reward.</p>
-        <p>Please enjoy this fantastic image carosoul </p>
+        <p>Please enjoy this <em>fantastically</em> pending image carosoul </p>
 
-        <section class="carouselOne">
-            <section class="C1-sizing">
-                <ul class="C1-list">
+        
+            <section class="C1-wrapper">
+
+                <button class="c1-arrow" id="c1-arrow-prev">
+                    &#8249;
+                </button>
+
+                <button class="c1-arrow" id="c1-arrow-next">
+                    &#8250;
+                </button>
+
+                <ul class="C1-list" id="C1-list">
                     <li class="C1-slide">
                         <img src="images/placehold.png" alt="">
                     </li>
@@ -42,7 +51,7 @@
                     </li>
                 </ul>
             </section>
-        </section>
+        
     </main>
 </body>
 

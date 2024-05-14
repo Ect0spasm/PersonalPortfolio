@@ -26,6 +26,10 @@ h1 {
   font-size: 10rem;
 }
 
+h2 {
+  text-decoration: underline;
+}
+
 .sideR {
   padding: 0.5%;
   height: 30.5rem;
@@ -102,6 +106,63 @@ h1 {
 
 .holdEm {
   padding: 10em;
+}
+
+.c1-wrapper {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.c1-list {
+  height: calc(100vh - 2rem);
+  width: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  scroll-behavior: smooth; 
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
+.c1-arrow {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 4rem;
+  background-color: white;
+  border: none;
+  width: 2rem;
+  font-size: 3rem;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 100ms;
+}
+
+.c1-arrow:hover,
+.slide-arrow:focus {
+  opacity: 1;
+}
+
+#c1-arrow-prev {
+  left: 0;
+  padding-left: 0.25rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+#c1-arrow-next {
+  right: 0;
+  padding-left: 0.75rem;
+  border-radius: 2rem 0 0 2rem;
 }
 
 @media only screen and (max-width: 680px) {
