@@ -90,6 +90,12 @@ h2 {
   border-radius: 30px;
 }
 
+.foots {
+  background-color: var(--hamlindigo-blue);
+  display: flex;
+  justify-content: center;
+}
+
 .mainBG {
   background-color: #ccc;
   margin: 10%;
