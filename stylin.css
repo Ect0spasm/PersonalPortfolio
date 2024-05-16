@@ -30,6 +30,21 @@ h2 {
   text-decoration: underline;
 }
 
+h4 {
+  font-size: x-large;
+  color: orangered;
+  border: solid #5e5c5c;
+  background-color: #decccc;
+}
+
+#punkImg {
+  width: 80%;
+}
+
+#raspyImg {
+  width: 80%;
+}
+
 .sideR {
   padding: 0.5%;
   height: 30.5rem;
@@ -180,6 +195,52 @@ h2 {
   right: 0;
   padding-left: 0.75rem;
   border-radius: 2rem 0 0 2rem;
+}
+
+.rightRound:hover .baby{
+transform: translateX(100%);
+animation: move-it 1.5s ease-in forwards infinite alternate;
+}
+
+.rightRound {
+  scale: 90%;
+  background-color: #5e5c5c;
+height: 200px;
+width: 200px;
+border-radius: 20%;
+border: #ffcc02;
+border: 10px solid goldenrod;
+animation: annie 3s linear infinite;
+}
+
+.baby {
+  border-radius: 20%;
+  background-color: var(--ng-orange);
+  height: 50%;
+  width: 50%;
+transition: 
+  transform 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes annie {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move-it {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateY(100%);
+  }
+  66% {
+    transform: translateX(100%) translateY(100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 @media only screen and (max-width: 680px) {
