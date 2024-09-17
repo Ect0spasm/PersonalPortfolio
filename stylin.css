@@ -87,6 +87,18 @@ h4 {
   font-size: 77px;
 }
 
+.gladness {
+  color:aquamarine;
+  /* font-family: "libre barcode 128 Text", system-ui; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  text-shadow: 2px 1px 1px grey, 1px 0 1rem orangered;
+}
+
+.gladness, .word {
+  transform: translate(2rem);
+}
+
 .resume-heading {
   
 }
