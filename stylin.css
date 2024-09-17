@@ -37,6 +37,11 @@ h4 {
   background-color: #decccc;
 }
 
+#thePortfolio {
+  color: orangered;
+font-family: 'Times New Roman', Times, serif;
+}
+
 #punkImg {
   width: 80%;
 }
