@@ -86,6 +86,10 @@ font-family: 'Times New Roman', Times, serif;
   justify-content: center;
 }
 
+.wordness {
+  
+}
+
 .madness {
   color: red;
   font-family: "libre barcode 128 Text", system-ui;
