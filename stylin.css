@@ -50,6 +50,11 @@ font-family: 'Times New Roman', Times, serif;
   width: 80%;
 }
 
+.faultTolerance {
+  display: flex;
+transform: translateX(12rem);
+}
+
 .sideR {
   padding: 0.5%;
   height: 30.5rem;
