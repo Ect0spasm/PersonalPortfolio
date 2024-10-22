@@ -90,6 +90,14 @@ font-family: 'Times New Roman', Times, serif;
   
 }
 
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #f5833b;
+  background-color: red;
+}
+
 .madness {
   color: red;
   font-family: "libre barcode 128 Text", system-ui;
