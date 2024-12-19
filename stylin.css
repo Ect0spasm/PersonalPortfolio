@@ -334,3 +334,9 @@ h3 {
   width: auto;
 }
 }
+
+.simpleImg {
+  width: 70em;
+  height: 45em;
+  object-fit: contain;
+}
